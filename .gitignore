@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Supabase local state
+.supabase/
+supabase/.temp/
+
+# Database dumps and exports
+*.dump
+*.sql.gz
+*.backup
+backups/
+exports/
+
+# Client and business data
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.docx
+*.zip
+client-data/
+imports/private/
+
+# Node / build artefacts
+node_modules/
+dist/
+build/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
